@@ -1,5 +1,9 @@
-message = "Hello World!!!"
+message = "Hello World"
 
-print(message)
-message = "This is a sentence!!!"
-print(message)
+message#@ = "Hello World"
+user_name = "Sifat Hassan"
+
+first_name = "Sifat"
+
+
+print(first_name)
