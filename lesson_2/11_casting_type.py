@@ -1,12 +1,12 @@
-number = "123"
-print(type(number))
+total_balance = "123.50"
+total_purchased_quantity = int("10")
 
-number = int(number)
-print(type(number))
+test_quantity = 123.50
 
-float_number = 1234.56
-string_float_number = str(float_number)
+test_quantity = str(test_quantity)
 
-print(number)
-print(string_float_number)
-message = "Hello World!!!"
+total_balance = float(total_balance)
+
+print(total_balance)
+print(total_purchased_quantity)
+print(type(test_quantity))
