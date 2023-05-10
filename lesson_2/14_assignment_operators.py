@@ -1,12 +1,9 @@
-number = 10
-number_two = 20
-number_three = 5
+sum = 10 + 5
 
-number += number_two
-print(number)
+sum += 10
 
-number -= number_three
-print(number)
+print(sum)
 
-number *= number_two
-print(number)
+sum -= 5
+
+print(sum)

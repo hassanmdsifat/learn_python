@@ -1,15 +1,15 @@
-number_one = 50
-number_two = 10
+print(10 + 5)
 
-print(number_one + number_two)
-print(number_one - number_two)
+print(10 - 5)
 
-print(number_one * number_two)
+print(10 * 5)
 
-print(number_one / number_two)
+print(10 / 5)
+print(10 / 3)
 
-number_four = 10
-number_five = 3
+print(10 // 5)
+print(10 // 3)
 
-print(number_four / number_five)
-print(number_four // number_five)
+print( 10 % 3)
+
+print(3 ** 2)

@@ -1,12 +1,16 @@
-numbers = [10, 20, 30, 40, 50, 60]
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+#           0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+#           -10, -9,-8,-7,-6,-5,-4,-3,-2,-1
 
-# numbers[start_index:end_index:step]
+# numbers[start:end:step]
 
-my_slice = numbers[1:4]
-new_slice = numbers[:5]
-another_slice = numbers[1::2]
-reverse_slice = numbers[::-1]
+# start = 0
+# end = -1
+# step = 1
 
-print(new_slice)
-print(another_slice)
-print(reverse_slice)
+print(numbers[2:6])
+
+print(numbers[2:])
+print(numbers[2:6:2])
+
+print(numbers[-1::-1])

@@ -1,22 +1,13 @@
-number_one = 30
-number_two = 20
+message_one = "Hello"
+message_two = "Hello"
 
-print(number_one < number_two)
+variable_one = 10
+variable_two = 12
 
-message_one = "Hello World!!!"
-message_two = "Hello World!!!"
+print(message_one == message_two and variable_one == variable_two)
 
-print(message_one == message_two)
+print(message_one == message_two or variable_one == variable_two)
 
-print(number_one < number_two and message_one == message_two)
-print(number_one < number_two or message_one == message_two)
+print(not(message_one == message_two))
+print(not (variable_one == variable_two))
 
-number_three = 4
-number_four = 4
-
-message_three = "Hello"
-message_four = "World"
-
-print(number_three != number_four or message_three == message_four)
-
-print(not (message_three == message_four))

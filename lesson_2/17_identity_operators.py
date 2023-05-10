@@ -1,16 +1,16 @@
-number_one = 2
-number_two = 2
+message_one = "Hello Worl"
+message_two = "Hello World"
 
-print(id(number_one))
-print(id(number_two))
+print(id(message_one))
+print(id(message_two))
 
-print(number_two is number_one)
+print(message_one is message_two)
 
 my_list = []
-my_list_two = []
+another_list = []
 
-print(id(my_list))
-print(id(my_list_two))
+print(another_list is my_list)
+print(another_list == my_list)
 
-print(my_list == my_list_two)
-print(my_list is not my_list_two)
+print(another_list is not my_list)
+

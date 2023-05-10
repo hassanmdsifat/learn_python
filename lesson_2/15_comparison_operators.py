@@ -1,16 +1,15 @@
-message = "Hello World!!"
+value_one = 5
 
-message_two = "Hello World!!"
+value_two = 10
 
-print(message == message_two)
+value_three = 5
 
-number_one = 10
-number_two = 5
+print(value_one != value_two)
 
-number_three = 10
+print(value_one < value_three)
 
-print(number_one < number_two)
-print(number_one <= number_three)
+print(value_one <= value_three)
 
-print(number_one != number_two)
+print(value_two > value_one)
 
+print(value_one >= value_three)
